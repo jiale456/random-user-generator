@@ -1,0 +1,88 @@
+* {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: monospace;
+}
+
+.card {
+  background: #f5f5f5;
+  -webkit-box-shadow: 0px 5px 15px #f5f5f5;
+          box-shadow: 0px 5px 15px #f5f5f5;
+  border-radius: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 300px;
+  min-height: 300px;
+  padding: 2rem 1rem;
+}
+
+.card div .title {
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card div.userInfo {
+  background: #8888dd;
+  border-radius: 8px;
+  width: 95%;
+  min-height: 150px;
+  margin-bottom: 20px;
+}
+
+.card div.userInfo pre {
+  padding: 10px;
+}
+
+.card div.userInfo pre h3 .placeholder {
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+  text-shadow: 0 0 4px #f1d99c, 0 0 8px #f1d99c, 0 0 14px #f1d99c;
+}
+
+.card div .btn.btn-generate {
+  background: #8888dd;
+  border-radius: 8px;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.card div .btn.btn-generate:hover, .card div .btn.btn-generate:active {
+  background: #595994;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+/*# sourceMappingURL=main.css.map */
