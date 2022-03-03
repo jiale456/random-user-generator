@@ -5,9 +5,6 @@ function fetchUsersData() {
                         .then((response) => response.json())
                         .then((users) => {
                             const randomNumber = Math.floor(Math.random() * 10);
-
-                            console.log(randomNumber);
-
                             const displayName = document.querySelector(".display-name");
                             const displayUsername = document.querySelector(".display-username");
                             const displayEmail = document.querySelector(".display-email");
@@ -16,10 +13,10 @@ function fetchUsersData() {
                             displayUsername.textContent = users[randomNumber].username;
                             displayEmail.textContent = users[randomNumber].email;
                         });
-
-    console.log(userData);
 }
 
+
+// Add eventListener to button
 const buttonGenerate = document.querySelector(".btn-generate");
 
 buttonGenerate.addEventListener("click", () => {
