@@ -1,20 +1,24 @@
 * {
-    font-size: 62.5%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    background: #333;
-    width: 100%;
-    min-height: 100vh;
+html {
+    font-size: 62.5%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    body {
+        background: #333;
+        width: 100%;
+        min-height: 100vh;
 
-    font-family: monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: monospace;
+        font-size: 1rem;
+    }
 }
 
 .card {
@@ -32,10 +36,9 @@ body {
 
     div {
         .title {
-            font-size: 16px;
+            font-size: 1.8rem;
             margin-bottom: 15px;
             text-align: center;
-            text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
         }
 
         &.userInfo {
@@ -49,8 +52,11 @@ body {
                 padding: 10px;
 
                 h3 {
+                    font-size: 1.4rem;
+
                     .placeholder {
                         display: block;
+                        font-size: 1.3rem;
                         margin-top: 5px;
                         text-align: center;
                         text-shadow: 0 0 4px rgb(241, 217, 156), 0 0 8px rgb(241, 217, 156), 0 0 14px rgb(241, 217, 156);
